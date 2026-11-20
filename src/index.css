@@ -8,39 +8,39 @@
   }
 
   html {
-    color-scheme: light;
+    color-scheme: dark;
     scroll-behavior: smooth;
     font-family: var(--default-font-family, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
   }
 
   body {
-    background-color: #F7F5EF;
-    color: #45433E;
+    background-color: #09090B;
+    color: #A1A1AA;
     font-family: var(--default-font-family, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
     font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   }
 
-  /* Custom subtle scrollbar */
+  /* Custom luxury subtle scrollbar */
   ::-webkit-scrollbar {
     width: 6px;
     height: 6px;
   }
 
   ::-webkit-scrollbar-track {
-    background: #F7F5EF;
+    background: #09090B;
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #DED9CC;
+    background: #27272D;
     border-radius: 9999px;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: #AD8A48;
+    background: #C5A059;
   }
 }
 
 .gold-italic-accent {
   font-style: italic;
-  color: #AD8A48;
+  color: #D4AF37;
 }

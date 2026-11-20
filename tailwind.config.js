@@ -4,30 +4,35 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
-        canvas: "#F7F5EF",
-        headings: "#292824",
-        bodyText: "#45433E",
-        secondaryText: "#77736A",
-        gold: {
-          DEFAULT: "#AD8A48",
-          accent: "#AD8A48",
-          champagne: "#E8D9B5",
-          light: "#FAF4E8",
-        },
-        silverBorder: "#DED9CC",
+        canvas: "#09090B",
         window: {
-          DEFAULT: "#FFFFFF",
-          inner: "#FCFAF6",
-          header: "#FAF8F3",
-          border: "#DED9CC",
+          DEFAULT: "#121215",
+          header: "#16161A",
+          border: "#26262B",
+          subtle: "#1F1F24",
         },
         card: {
-          DEFAULT: "#FAF8F3",
-          hover: "#F5F2EA",
-          border: "#DED9CC",
+          DEFAULT: "#16161A",
+          hover: "#1B1B20",
+          border: "#27272D",
+        },
+        gold: {
+          DEFAULT: "#D4AF37",
+          metallic: "#C5A059",
+          light: "#E5C158",
+          dark: "#9E7D23",
+          badge: "#2A2416",
+        },
+        silver: {
+          DEFAULT: "#A1A1AA",
+          light: "#E4E4E7",
+          muted: "#71717A",
+          border: "#27272D",
+          borderHover: "#3F3F46",
         }
       },
       fontFamily: {
@@ -42,8 +47,8 @@ export default {
         kicker: '0.18em',
       },
       boxShadow: {
-        'window-warm': '0 16px 48px -12px rgba(69, 67, 62, 0.08), 0 0 0 1px #DED9CC',
-        'card-warm': '0 2px 10px -2px rgba(69, 67, 62, 0.04)',
+        'window-tcc': '0 25px 70px -15px rgba(0, 0, 0, 0.95), 0 0 0 1px rgba(255, 255, 255, 0.05), 0 0 50px -10px rgba(212, 175, 55, 0.04)',
+        'card-tcc': '0 8px 24px -6px rgba(0, 0, 0, 0.6)',
       }
     },
   },
