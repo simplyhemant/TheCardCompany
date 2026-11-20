@@ -23,32 +23,4 @@ Prepared by **Hemant Singh** (November 2026).
 
 ---
 
-## 🚀 Getting Started
-
-### Local Development
-```bash
-npm install
-npm run dev
-```
-
-### Production Build
-```bash
-npm run build
-```
-
----
-
-## ⚡ Deployment to Vercel
-
-This repository is pre-configured with `vercel.json` and optimized for 1-click zero-config deployment on Vercel:
-
-1. Push this repository to GitHub or GitLab.
-2. Import the repository into [Vercel](https://vercel.com).
-3. The framework preset is automatically detected as **Vite**.
-4. Click **Deploy**.
-
-Alternatively, deploy via the Vercel CLI:
-```bash
-npx vercel
-```
 # TheCardCompany
