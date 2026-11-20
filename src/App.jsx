@@ -133,13 +133,22 @@ export default function App() {
               <span className="text-[#3F3F46]">·</span>
               <span>November 2026</span>
               <span className="text-[#3F3F46]">·</span>
-              <button 
-                onClick={() => copyToClipboard('hemantsingh.dev@gmail.com', 'email')}
-                className="hover:text-[#D4AF37] transition-colors underline decoration-[#3F3F46] underline-offset-4 flex items-center gap-1 group"
+              <a 
+                href="mailto:hemant23dev@gmail.com"
+                className="text-[#A1A1AA] hover:text-[#D4AF37] transition-colors underline decoration-[#3F3F46] hover:decoration-[#D4AF37] underline-offset-4"
               >
-                <span>[Your email / LinkedIn]</span>
-                {copiedEmail ? <Check className="w-3 h-3 text-[#D4AF37]" /> : <Copy className="w-2.5 h-2.5 opacity-60 group-hover:opacity-100" />}
-              </button>
+                hemant23dev@gmail.com
+              </a>
+              <span className="text-[#3F3F46]">·</span>
+              <a 
+                href="https://www.linkedin.com/in/simplyhemant/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#A1A1AA] hover:text-[#D4AF37] transition-colors underline decoration-[#3F3F46] hover:decoration-[#D4AF37] underline-offset-4 inline-flex items-center gap-1 group"
+              >
+                <span>LinkedIn</span>
+                <ExternalLink className="w-2.5 h-2.5 opacity-60 group-hover:opacity-100" />
+              </a>
             </div>
 
             {/* Hook Paragraph */}
@@ -746,14 +755,32 @@ export default function App() {
           {/* ========================================================================= */}
           <footer className="border-t border-[#222227] pt-8 sm:pt-10 space-y-5">
             <div className="flex flex-wrap items-center justify-between gap-4 text-xs sm:text-[13px] font-mono text-[#71717A]">
-              <div className="flex items-center gap-2">
+              <div className="flex flex-wrap items-center gap-2 sm:gap-3">
                 <span className="text-[#FFFFFF] font-medium">Hemant Singh</span>
                 <span className="text-[#3F3F46]">·</span>
-                <span className="text-[#A1A1AA]">[Email]</span>
+                <a 
+                  href="mailto:hemant23dev@gmail.com" 
+                  className="text-[#A1A1AA] hover:text-[#D4AF37] transition-colors underline decoration-[#3F3F46] hover:decoration-[#D4AF37] underline-offset-4"
+                >
+                  hemant23dev@gmail.com
+                </a>
                 <span className="text-[#3F3F46]">·</span>
-                <span className="text-[#A1A1AA]">[LinkedIn]</span>
+                <a 
+                  href="https://www.linkedin.com/in/simplyhemant/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-[#A1A1AA] hover:text-[#D4AF37] transition-colors underline decoration-[#3F3F46] hover:decoration-[#D4AF37] underline-offset-4 inline-flex items-center gap-1 group"
+                >
+                  <span>LinkedIn</span>
+                  <ExternalLink className="w-2.5 h-2.5 opacity-60 group-hover:opacity-100" />
+                </a>
                 <span className="text-[#3F3F46]">·</span>
-                <span className="text-[#A1A1AA]">[Phone]</span>
+                <a 
+                  href="tel:+919119703177" 
+                  className="text-[#A1A1AA] hover:text-[#D4AF37] transition-colors underline decoration-[#3F3F46] hover:decoration-[#D4AF37] underline-offset-4"
+                >
+                  +91 9119703177
+                </a>
               </div>
               <div className="text-[11px] text-[#71717A]">
                 Editorial Memo // 2026
