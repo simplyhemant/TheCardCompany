@@ -109,7 +109,7 @@ export default function App() {
             {/* Small Silver & Gold Kicker */}
             <div className="inline-flex items-center space-x-2 text-[11px] sm:text-xs font-mono tracking-[0.14em] text-[#8E8E96] uppercase bg-[#18181D] border border-[#27272D] px-3 py-1 rounded-full">
               <span className="w-1.5 h-1.5 rounded-full bg-[#D4AF37] animate-pulse" />
-              <span>Reviews research + strategy + hands-on use of the app</span>
+              <span>INDEPENDENT PRODUCT RESEARCH</span>
             </div>
 
             {/* Document Title */}
@@ -124,7 +124,7 @@ export default function App() {
 
             {/* Subtitle */}
             <p className="text-base sm:text-lg text-[#8E8E96] font-normal leading-relaxed max-w-2xl">
-              An independent look at the product, its customers and opportunities for improvement
+              Customer reviews, hands-on research and opportunities for growth.
             </p>
 
             {/* Author / Metadata Pill */}
@@ -190,13 +190,13 @@ export default function App() {
             {/* Body copy */}
             <div className="space-y-5 text-[16px] sm:text-[17px] leading-[1.8] text-[#A1A1AA]">
               <p>
-                TCC gives Indian users a prepaid wallet, a RuPay card and UPI, and pays back 1–3% of every spend in real 24K gold. The metal card (₹5,999/year) adds lounge and hotel perks that usually sit behind premium credit cards.
+                TCC combines a prepaid wallet, RuPay card and UPI, with 1–2% Gold Coins and premium metal-card benefits.
               </p>
               <p>
                 The person using TCC today is probably someone who already follows fintech: they know what a lounge pass is, they compare reward rates, and they are comfortable paying a fee to unlock perks. (Hypothesis. TCC's own data on who joins would confirm it.) That is a small slice of India.
               </p>
               <p>
-                The bigger India is a college student with a UPI app but no credit card. A first-job fresher who can't get a premium card yet. A teenager whose parents send pocket money. These people already spend every day. Right now, I'm not sure TCC is easy for them to start with.
+                A potentially larger opportunity is the college student with a UPI app but no credit card. A first-job fresher who can't get a premium card yet. A teenager whose parents send pocket money. These people already spend every day. Right now, I'm not sure TCC is easy for them to start with.
               </p>
             </div>
           </section>
@@ -253,7 +253,7 @@ export default function App() {
                     ₹10,000
                   </div>
                   <p className="text-sm leading-relaxed text-[#A1A1AA] pt-1">
-                    At 1% on Wallet UPI, a new user needs about ₹10,000 of eligible spending to reach 10,000 Gold Coins (₹100), the redemption minimum I found.
+                    At 1% on Wallet UPI, a new user needs about ₹10,000 of eligible spending to reach 10,000 Gold Coins (₹100), the redemption minimum I found. This calculation is conditional on the 10,000 Gold Coins = ₹100 conversion, the redemption minimum and eligible spending assumptions, rather than an independently verified fact.
                   </p>
                 </div>
               </div>
@@ -269,7 +269,7 @@ export default function App() {
                     ₹116.82
                   </div>
                   <p className="text-sm leading-relaxed text-[#A1A1AA] pt-1">
-                    The one-time Wallet UPI activation fee (₹99 + GST). If rewards are earned at 1% on all eligible spending and there are no other fees, it takes about ₹11,700 of spending to earn that back. Free bank UPI is what the user is comparing it to.
+                    The one-time Wallet UPI activation fee (₹99 + GST). If rewards are earned at 1% on all eligible spending and there are no other fees, it takes about ₹11,700 of spending to earn that back, conditional on the 10,000 Gold Coins = ₹100 conversion, redemption minimum and eligible spending assumptions. Free bank UPI is what the user is comparing it to.
                   </p>
                 </div>
               </div>
@@ -286,6 +286,9 @@ export default function App() {
                   </div>
                   <p className="text-sm leading-relaxed text-[#A1A1AA] pt-1">
                     Individual reviews describe money debited while a payment shows Failed or Processing, with refunds taking days and in some cases 14–25+ days. Others mention support emails unanswered for 10+ days, QR scanner errors, UPI activation stuck on "taking longer than expected", and a disabled card-tracking button. One review about a 25-day refund doesn't tell us TCC's typical refund time, but the same themes keep coming back.
+                  </p>
+                  <p className="text-sm leading-relaxed text-[#8E8E96] pt-1">
+                    TCC's published grievance policy also describes in-app complaint registration and chat support. I haven't tested that process myself, so the gap between the published support journey and the experiences described in reviews is worth investigating.
                   </p>
                 </div>
               </div>
@@ -475,7 +478,7 @@ export default function App() {
                 </div>
 
                 <p className="text-sm sm:text-[15px] leading-relaxed text-[#A1A1AA]">
-                  Make the eligible Min-KYC journey easier to discover. During my own onboarding I was asked for PAN details, while TCC's published terms describe a lighter Min-KYC route. I'd first investigate whether users are being routed into different KYC journeys and where eligible users drop off. If the lighter route exists but is hard to find, show it as its own journey: OTP, one ID number, a selfie, and the limits shown before activation (₹10,000 balance, purchases only), with Full KYC as a later upgrade for higher limits and UPI transfers. This must not promise features that small wallets can't offer under RBI rules, and TCC's compliance team would need to confirm what is allowed. The published terms also mention both a one-year and a two-year validity for different routes, which is worth clearing up for users.
+                  Make the eligible Min-KYC journey easier to discover. During my own onboarding I was asked for PAN details, while TCC's published terms describe a lighter Min-KYC route. I'd first investigate whether users are being routed into different KYC journeys and where eligible users drop off. If the lighter route exists but is hard to find, show it as its own journey: OTP, one ID number, a selfie, and the limits shown before activation (₹10,000 balance, purchases only), with Full KYC as a later upgrade for higher limits and UPI transfers. This must not promise features that small wallets can't offer under RBI rules, and TCC's compliance team would need to confirm what is allowed. The published terms contain different validity provisions across KYC routes, including a two-year Min-KYC period and a separate one-year provision in the non-face-to-face KYC terms. This is worth clarifying for users.
                 </p>
 
                 <div className="pt-2 flex flex-wrap items-center gap-2 text-xs font-mono">
@@ -692,10 +695,10 @@ export default function App() {
                   <div className="absolute -left-[23px] sm:-left-[27px] top-1.5 w-3 h-3 rounded-full bg-[#121215] border-2 border-[#D4AF37] group-hover:bg-[#D4AF37] transition-colors shadow-[0_0_8px_rgba(212,175,55,0.4)]" />
                   <div className="bg-[#16161A] border border-[#27272D] p-4 rounded-lg">
                     <span className="font-mono text-xs font-bold text-[#D4AF37] block mb-1">
-                      Week 1
+                      Week 1 — Understand
                     </span>
                     <p className="text-sm leading-relaxed text-[#A1A1AA]">
-                      Map the current onboarding and payment flows and list where users can get stuck.
+                      Map the current onboarding and payment flows. Understand how successful, pending, failed and refunded transactions are handled.
                     </p>
                   </div>
                 </div>
@@ -705,10 +708,10 @@ export default function App() {
                   <div className="absolute -left-[23px] sm:-left-[27px] top-1.5 w-3 h-3 rounded-full bg-[#121215] border-2 border-[#D4AF37] group-hover:bg-[#D4AF37] transition-colors shadow-[0_0_8px_rgba(212,175,55,0.4)]" />
                   <div className="bg-[#16161A] border border-[#27272D] p-4 rounded-lg">
                     <span className="font-mono text-xs font-bold text-[#D4AF37] block mb-1">
-                      Week 2
+                      Week 2 — Investigate
                     </span>
                     <p className="text-sm leading-relaxed text-[#A1A1AA]">
-                      Build a prototype of the transaction timeline and the "Report a problem" flow.
+                      Review available user feedback and internal funnel data with the team. Identify one high-impact problem and confirm the relevant compliance constraints.
                     </p>
                   </div>
                 </div>
@@ -718,10 +721,10 @@ export default function App() {
                   <div className="absolute -left-[23px] sm:-left-[27px] top-1.5 w-3 h-3 rounded-full bg-[#121215] border-2 border-[#D4AF37] group-hover:bg-[#D4AF37] transition-colors shadow-[0_0_8px_rgba(212,175,55,0.4)]" />
                   <div className="bg-[#16161A] border border-[#27272D] p-4 rounded-lg">
                     <span className="font-mono text-xs font-bold text-[#D4AF37] block mb-1">
-                      Week 3
+                      Week 3 — Prototype
                     </span>
                     <p className="text-sm leading-relaxed text-[#A1A1AA]">
-                      Work with your team to set up onboarding funnel metrics and confirm what the compliance rules allow.
+                      Design a transaction timeline and a "Report a problem" flow. Review the API design and edge cases with the engineering team.
                     </p>
                   </div>
                 </div>
@@ -731,10 +734,10 @@ export default function App() {
                   <div className="absolute -left-[23px] sm:-left-[27px] top-1.5 w-3 h-3 rounded-full bg-[#121215] border-2 border-[#D4AF37] group-hover:bg-[#D4AF37] transition-colors shadow-[0_0_8px_rgba(212,175,55,0.4)]" />
                   <div className="bg-[#16161A] border border-[#27272D] p-4 rounded-lg">
                     <span className="font-mono text-xs font-bold text-[#D4AF37] block mb-1">
-                      Week 4
+                      Week 4 — Deliver
                     </span>
                     <p className="text-sm leading-relaxed text-[#A1A1AA]">
-                      Validate the findings with your team, pick one low-risk improvement, and work towards delivering it with clear success measures.
+                      Work towards one agreed, low-risk improvement. Test important scenarios and define how its impact will be measured.
                     </p>
                   </div>
                 </div>
@@ -753,11 +756,16 @@ export default function App() {
           {/* ========================================================================= */}
           {/* UNDERSTATED FOOTER */}
           {/* ========================================================================= */}
-          <footer className="border-t border-[#222227] pt-8 sm:pt-10 space-y-5">
-            <div className="flex flex-wrap items-center justify-between gap-4 text-xs sm:text-[13px] font-mono text-[#71717A]">
-              <div className="flex flex-wrap items-center gap-2 sm:gap-3">
-                <span className="text-[#FFFFFF] font-medium">Hemant Singh</span>
-                <span className="text-[#3F3F46]">·</span>
+          <footer className="border-t border-[#222227] pt-8 sm:pt-10 space-y-4 font-mono text-xs text-[#71717A]">
+            <p className="leading-relaxed">
+              Sources: TCC's published terms and conditions, TCC product pages, my own use of the app, and public Google Play reviews (July–November 2026). I am not affiliated with TCC.
+            </p>
+
+            <div className="pt-4 border-t border-[#1C1C22] space-y-2">
+              <p className="text-[#A1A1AA]">
+                Prepared by Hemant Singh · November 2026
+              </p>
+              <div className="flex flex-wrap items-center gap-2">
                 <a 
                   href="mailto:hemant23dev@gmail.com" 
                   className="text-[#A1A1AA] hover:text-[#D4AF37] transition-colors underline decoration-[#3F3F46] hover:decoration-[#D4AF37] underline-offset-4"
@@ -782,14 +790,10 @@ export default function App() {
                   +91 9119703177
                 </a>
               </div>
-              <div className="text-[11px] text-[#71717A]">
-                Editorial Memo // 2026
-              </div>
+              <p className="text-[11px] text-[#71717A]">
+                Independent research. Not affiliated with The Card Company.
+              </p>
             </div>
-
-            <p className="text-xs leading-relaxed text-[#71717A]">
-              Sources: TCC's published terms and conditions, TCC product pages, my own use of the app, and public Google Play reviews (July–November 2026). I am not affiliated with TCC.
-            </p>
           </footer>
 
         </article>
