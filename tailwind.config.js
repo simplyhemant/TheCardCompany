@@ -7,44 +7,43 @@ export default {
   theme: {
     extend: {
       colors: {
-        canvas: "#080808",
+        canvas: "#F7F5EF",
+        headings: "#292824",
+        bodyText: "#45433E",
+        secondaryText: "#77736A",
+        gold: {
+          DEFAULT: "#AD8A48",
+          accent: "#AD8A48",
+          champagne: "#E8D9B5",
+          light: "#FAF4E8",
+        },
+        silverBorder: "#DED9CC",
         window: {
-          DEFAULT: "#111113",
-          header: "#161618",
-          border: "#262629",
-          borderSubtle: "#242428",
+          DEFAULT: "#FFFFFF",
+          inner: "#FCFAF6",
+          header: "#FAF8F3",
+          border: "#DED9CC",
         },
         card: {
-          DEFAULT: "#151518",
-          methodology: "#16161A",
-          border: "#27272B",
-        },
-        gold: {
-          DEFAULT: "#D4AF37",
-          light: "#E5C158",
-          metallic: "#C5A059",
-          dark: "#A38027",
-          glow: "rgba(212, 175, 55, 0.15)",
-        },
-        silver: {
-          DEFAULT: "#B8B8BE",
-          platinum: "#F5F5F7",
-          muted: "#71717A",
-          border: "#222226",
-          accent: "#3A3A40",
+          DEFAULT: "#FAF8F3",
+          hover: "#F5F2EA",
+          border: "#DED9CC",
         }
       },
       fontFamily: {
-        serif: ['"Playfair Display"', 'Georgia', 'serif'],
-        sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
-        mono: ['"JetBrains Mono"', 'monospace'],
+        sans: [
+          'var(--default-font-family, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji")'
+        ],
+        mono: [
+          'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'
+        ]
       },
       letterSpacing: {
         kicker: '0.18em',
       },
       boxShadow: {
-        'window': '0 25px 60px -15px rgba(0, 0, 0, 0.95), 0 0 0 1px rgba(255, 255, 255, 0.04), 0 0 40px -10px rgba(212, 175, 55, 0.03)',
-        'card-subtle': '0 10px 30px -10px rgba(0, 0, 0, 0.6)',
+        'window-warm': '0 16px 48px -12px rgba(69, 67, 62, 0.08), 0 0 0 1px #DED9CC',
+        'card-warm': '0 2px 10px -2px rgba(69, 67, 62, 0.04)',
       }
     },
   },
